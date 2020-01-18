@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "rest-client": [
+        "dist/rest-client"
+      ],
+      "rest-client/*": [
+        "dist/rest-client/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
